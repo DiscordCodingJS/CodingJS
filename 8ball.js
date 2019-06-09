@@ -34,7 +34,7 @@ exports.run = (client, message, args, tools) => {
         .setAuthor(question)
         .setDescription(answer[Math.round(Math.random() * (answer.length - 1))] + '.')
         .setColor(0x646770)
-        .setThumbnail('https://pa1.narvii.com/6700/c22a891244cb6e067571287e08b185c6d83c8609_hq.gif')
+        .setThumbnail('https://pa1.narvii.com/6700/c22a891244cb6e067571287e08b185c6d83c8609_hq.gif')//animated icon added
         .setFooter("8Ball Reply")
     message.channel.send(ballEmbed);
 }
